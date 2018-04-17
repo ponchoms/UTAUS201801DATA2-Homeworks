@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <link rel="stylesheet" href="reset.css">
+  	<link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>	
+
+    <title>Index</title>
+  </head>
+
+  <nav id="navbar-example2" class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">Latitude</a>
+  <ul class="nav nav-pills">
+  	  	<li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="/temp">Temperature</a>
+        <a class="dropdown-item" href="/humidity">Humidity</a>
+        <a class="dropdown-item" href="/cloud">Cloudiness</a>
+        <a class="dropdown-item" href="/wind">Windspeed</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/comparison">Comparison</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/data">Data</a>
+    </li>
+  </ul>
+</nav>
+
+  <body>
+    <h1></h1>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <div class="container" id="mainBody">
+		<div class="row">
+
+		<!-- Main content -->
+			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-xl-7" id="mainContent">
+				<h1>Summary: Latitude vs. X</h1>
+				<hr>
+
+				<img src="output_9_0.png" class="pull-left img-rounded img-fluid" alt="Picture of me">
+
+				<div class="text-left">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque?</p>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt optio provident tempora amet, eveniet et, eum illum, culpa laborum dicta recusandae magni architecto. Illo saepe facilis, unde. Debitis, atque, doloremque?</p>
+				</div>
+			</div>
+
+		<!-- Spacer -->
+				<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 col-xl-1" style="height:5%;">
+				</div>
+
+		<!-- Sidebar -->
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" id="sidebar">
+				<h1 class="text-center"></h1>
+				<hr>
+				<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><a href="/temp"><img class="img-fluid" src="output_9_0.png" alt="Stack Overflow" /></a></div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><a href="/humidity"><img class="img-fluid" src="output_11_0.png" alt="Visual" /></a></div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><a href="/cloud"><img class="img-fluid" src="output_13_0.png" alt="Github" /></a></div>
+					<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"><a href="/wind"><img class="img-fluid" src="output_15_0.png" alt="Stack Overflow" /></a></div>
+				</div>
+			</div>
+
+ 		<!-- Spacer -->
+				<div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 col-xl-1" style="height:20%;">
+				</div>
+		</div>
+	</div>
+
+
+<!-- <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<!-- Brand -->
+	<a class="navbar-brand" href="#">Logo</a>
+
+	<!-- Links -->
+	<div class="collapse navbar-collapse" id="nav-content">   
+	<ul class="navbar-nav">
+	<li class="nav-item">
+	<a class="nav-link" href="#">Link 1</a>
+	</li>
+	<li class="nav-item">
+	<a class="nav-link" href="#">Link 2</a>
+	</li>
+	<li class="nav-item">
+	<a class="nav-link" href="#">Link 3</a>
+	</li>
+	</ul>
+<!-- </nav> --> -->
+
+<!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav> -->
+
+	<footer>
+		
+	</footer>
+
+  </body>
+</html>
